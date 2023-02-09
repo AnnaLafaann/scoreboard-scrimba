@@ -1,0 +1,73 @@
+@font-face {
+     font-family: digital;
+     src: url(Digital7.ttf);
+}
+
+body {
+    font-family: digital;
+    margin: 40px auto;
+    background: linear-gradient(#14021c, #33091b);
+}
+
+h1{
+    text-shadow: 0px 0px 8px #ff3b65;
+    box-shadow: 0px 0px 10px pink;
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 6px 0px 30px 0px;
+    font-size: 80px;
+    text-align: center;
+    width: 100px;
+    padding: 30px;
+    background: #02070d;
+    color: #ff3b65;
+}
+
+h3{
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 10px pink;
+    color: white;
+    font-size: 40px;
+    margin: 0px auto 12px;
+}
+
+.container {
+    zoom: 140%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+}
+.count-blocks {
+    background: linear-gradient(#66062e, transparent);
+    padding: 20px 14px ;
+    margin: 0px 30px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-number, .new-game {
+    font-family: digital;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: radial-gradient(#9c0c48, #66062e);
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px white;
+    margin: 0px 2px 0px 0px;
+    padding: 8px 12px;
+}
+
+.new-game {
+    
+    letter-spacing: 8px;
+    display: block;
+    margin: 30px auto;
+    font-size: 40px;
+    background: linear-gradient(#f04d8b, #66062e);
+    box-shadow: 0px 0px 10px pink;
+    padding: 12px 16px;
+}

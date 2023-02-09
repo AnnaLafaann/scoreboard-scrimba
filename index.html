@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="count-blocks" id="home-block">
+                <h3>HOME</h3>
+                <h1 class="number-block" id="main-number1"></h1>
+                <div class="buttons">
+                    <button class="button-number" onclick="homeAddOne()">+1</button>                
+                    <button class="button-number" onclick="homeAddTwo()">+2</button>
+                    <button class="button-number" onclick="homeAddThree()">+3</button>
+                </div>
+            </div>
+            <div class="count-blocks">
+                <h3>GUEST</h3>
+                <h1 class="number-block" id="main-number2"></h1>
+                <div class="buttons">
+                    <button class="button-number" onclick="guestAddOne()">+1</button>
+                    <button class="button-number" onclick="guestAddTwo()">+2</button>
+                    <button class="button-number" onclick="guestAddThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button class="new-game" onclick="newGameBtn()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
